@@ -43,7 +43,8 @@ FULL SETUP (headless over SSH)
         * Make sure "eject media when finished" is UNCHECKED
       * Click "SAVE"
       * Back in the tool's main window, click the "WRITE" button.
-  * When the imaging is done, create a file called "ssh" on the root level of the bootfs drive that the Imager has made. This will trigger ssh to start automatically at boot. On a Mac the command is "touch /Volumes/bootfs/ssh"
+  * When the imaging is done, create a file called "ssh" on the root level of the bootfs drive that the Imager has made. This will trigger ssh to start automatically at boot.
+    * On a Mac, in Terminal: touch /Volumes/bootfs/ssh
   * NOTE: If you do not create this file, SSH will not start and you will be unable to get into the Pi.
   * Eject and remove the microSD card from your computer.
   * Insert the microSD card into the Pi, plug USB-C into the beepy, and slide its power switch on (to the right).
