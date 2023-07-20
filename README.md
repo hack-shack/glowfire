@@ -11,7 +11,7 @@ QUICK SETUP (skipping important details)
   * cd ~
   * git clone --depth 1 https://github.com/hack-shack/beepy-directfb2
   * cd beepy-directfb2
-  * ./build-sdk.py
+  * python build-sdk.py
 
 
 FULL SETUP (headless over SSH)
@@ -56,7 +56,7 @@ FULL SETUP (headless over SSH)
   * cd ~
   * git clone --depth 1 https://github.com/hack-shack/beepy-directfb2
   * cd beepy-directfb2
-  * ./build-sdk.py
+  * python build-sdk.py
 
 Don't run install-sharp-driver.py. The build-sdk script will obtain its dependencies, then do this for you.
 
