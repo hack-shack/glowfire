@@ -1,8 +1,8 @@
 DESCRIPTION
 ===========
 Installs a DirectFB toolchain for the beepy open hardware platform described here:
-  * https://beepy.sqmfi.com
-  * https://github.com/beeper/beepberry
+  * [https://beepy.sqfmi.com](https://beepy.sqfmi.com)
+  * [https://github.com/beeper/beepberry](https://github.com/beeper/beepberry)
 
 QUICK SETUP (skipping important details)
 ========================================
