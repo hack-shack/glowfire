@@ -30,9 +30,9 @@ MicroSD copies data to microSD card.
 Do not eject microSD card.  
 After copy is complete:
 ```
-$ touch /Volumes/bootfs/ssh  <- enable SSH to automatically start
-$ vi /Volumes/bootfs/config.txt  <- add new line to bottom and write: dtoverlay=dwc2
-$ vi /Volumes/bootfs/cmdline.txt  <- insert after text "rootwait": modules-load=dwc2,g_ether
+desktop:$ touch /Volumes/bootfs/ssh  <- enable SSH to automatically start
+desktop:$ vi /Volumes/bootfs/config.txt  <- add new line to bottom and write: dtoverlay=dwc2
+desktop:$ vi /Volumes/bootfs/cmdline.txt  <- insert after text "rootwait": modules-load=dwc2,g_ether
 ```
 
 ## Connect to Raspberry Pi
@@ -55,11 +55,11 @@ You should be able to ping Pi at its hostname.local.
 In this example, Pi admin user is named "pi."  
 Copy your public SSH key to the Pi:
 ```
-$ ssh-copy-id pi@beepy.local  <-- use Pi username@hostname
+desktop:$ ssh-copy-id pi@beepy.local  <-- use Pi username@hostname
 ```
 If your host computer mentions a key mismatch ("something nasty"), delete Pi host key:
 ```
-$ ssh-keygen -R beepy.local  <-- use Pi hostname or IP
+desktop:$ ssh-keygen -R beepy.local  <-- use Pi hostname or IP
 ```
 After old key is removed, retry ssh-copy-id.
 
@@ -67,7 +67,7 @@ After old key is removed, retry ssh-copy-id.
 For owners with NFS Git repos. (If you have an internal version of glowfire.)  
 Assume a ZFS based NFS at 192.168.1.1, holding your local Git repo. Create a mountpoint for it:
 ```
-sudo mkdir /mnt/git
+beepy:$ sudo mkdir /mnt/git
 ```
 Open /etc/fstab and insert this line, changing IP and zpool name as needed:
 ```
@@ -78,11 +78,11 @@ Reboot.
 ## Install glowfire
 SSH to Pi. Install glowfire.
 ```
-sudo apt install -y git
-cd ~
-git clone https://github.com/hack-shack/glowfire
-cd ~/glowfire
-python make-glowfire.py
+beepy:$ sudo apt install -y git
+beepy:$ cd ~
+beepy:$ git clone https://github.com/hack-shack/glowfire
+beepy:$ cd ~/glowfire
+beepy:$ python make-glowfire.py
 ```
 
 It builds a custom toolchain for pygame on the Memory LCD.  
@@ -157,21 +157,21 @@ tracstar and audio apps will crash if no USB sound card is attached.
 # Run snakewm on your desktop computer
 Clone the glowfire repo onto your desktop:
 ```
-$ git clone https://github.com/hack-shack/glowfire ~/Developer/glowfire
-$ cd ~/Developer/glowfire
+desktop:$ git clone https://github.com/hack-shack/glowfire ~/Developer/glowfire
+desktop:$ cd ~/Developer/glowfire
 ```
 (Optional) Make a new git branch, so any changes will be saved to it:
 ```
-$ git checkout MyBranch  <-- name it what you like
+desktop:$ git checkout MyBranch  <-- name it what you like
 ```
 (Recommended) Make a virtual environment, to store your dependencies:
 ```
-$ python3 -m venv .venv
+desktop:$ python3 -m venv .venv
 ```
 (Recommended) Change to your venv:
 ```
-$ cd ~/Developer/glowfire
-$ source .venv/bin/activate
+desktop:$ cd ~/Developer/glowfire
+desktop:$ source .venv/bin/activate
 ```
 Run snakewm:
 ```
@@ -190,7 +190,7 @@ For example:
 Some apps will crash on launch if their dependencies are missing, e.g. pyttsx3 for the text-
 to-speech engine:
 ```
-$ python3 -m pip install pyttsx3
+desktop:$ python3 -m pip install pyttsx3
 ```
 Continue this way, attempting to run snakewm, then installing
 dependencies, until snakewm runs.
