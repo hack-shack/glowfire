@@ -1,4 +1,5 @@
 ![glowfire examples](data/glowfire.gif)
+
 Release video: https://youtu.be/QseUhKPJywU
 
 # glowfire
