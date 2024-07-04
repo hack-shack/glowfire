@@ -1,0 +1,1 @@
+You can run build-sdk.py on a faster Pi, and transfer the microSD into the Zero when done. Just start up the card in the Pi Zero first, at least once successfully (where you can SSH in, etc.) If you start it up on a Pi 4, the Zero's network adapters may not come up later on.

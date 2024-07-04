@@ -1,0 +1,8 @@
+{
+    "en": {
+        "desc_atkinson":"high contrast, dramatic shadows and highlights, sharp edges",
+        "desc_floyd_steinberg":"best for gradiation; does not preserve sharp edges",
+        "desc_stucki":"balance between gradiation and sharp edges",
+        "select_source_image":"select source image:"
+    }
+  }

@@ -1,0 +1,18 @@
+---
+unified font repository version: "0.2"
+unified font repository url: https://github.com/raphaelbastide/Unified-Font-Repository/
+typeface family:
+  name: Teranoptia
+  tags:
+  - fantasy
+  - worldbuilding
+  - symbols
+  - typometry
+  repository url: https://gitlab.com/arielmartinperez/teranoptia
+  project status: published
+  tools:
+  - Glyphs
+  similar fonts: Imago Mundi Mei
+  sample text:
+  - en_us: Sphinx of black quartz, judge my vow.
+...

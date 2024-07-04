@@ -1,0 +1,8 @@
+{
+    "fr": {
+        "desc_atkinson":"contraste élevé, ombres et lumières dramatiques, bords nets",
+        "desc_floyd_steinberg":"meilleur pour les dégradés; ne préserve pas les bords nets",
+        "desc_stucki":"équilibre entre dégradés et bords nets",
+        "select_source_image":"sélectionner l'image source:"
+    }
+  }

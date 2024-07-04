@@ -1,0 +1,10 @@
+{
+    "fr": {
+        "size":"Taille     : ",
+        "walls":"Des murs   : ",
+        "unvisited":"Non visité : ",
+        "visited":"A visité   : ",
+        "visited2":"Deux fois  : ",
+        "impacts":"Impacts    : "
+    }
+  }

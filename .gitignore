@@ -1,0 +1,12 @@
+# Text editor swap files
+*.swp
+# Python virtual environment
+.venv/
+# JetBrains PyCharm settings
+.idea/
+# Python caches
+__pycache__/
+# Mac Finder view settings
+.DS_Store
+# Mac extended filesystem attributes
+._*

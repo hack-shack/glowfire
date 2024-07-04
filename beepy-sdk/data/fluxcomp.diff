@@ -1,0 +1,10 @@
+--- fluxcomp.cpp.backup	2023-07-02 01:44:09.962774003 -0700
++++ fluxcomp.cpp	2023-07-02 01:16:58.511216064 -0700
+@@ -56,6 +56,7 @@
+ #include <direct/debug.h>
+ #include <direct/direct.h>
+ #include <direct/list.h>
++#include <direct/log.h>
+ #include <direct/mem.h>
+ #include <direct/memcpy.h>
+ #include <direct/messages.h>

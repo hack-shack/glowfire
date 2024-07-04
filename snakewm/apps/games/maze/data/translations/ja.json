@@ -1,0 +1,10 @@
+{
+    "ja": {
+        "size":"サイズ ",
+        "walls":"壁数",
+        "unvisited":"未訪問",
+        "visited":"訪問済",
+        "visited2":"二度目訪問",
+        "impacts":"衝突"
+    }
+  }

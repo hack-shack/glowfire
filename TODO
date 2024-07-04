@@ -1,0 +1,53 @@
+# ESSENTIAL
+  √ firmware
+  √ snapper (leaving bug open: still appears underneath everything)
+  √ tracstar functional
+  √ app themes sorted
+
+# NICE TO HAVE
+  * venv
+  * SWD-ready firmware (ELF format w/ bootloader)
+  √ internationalization dictionary for AppMenu
+  √ set desktop wallpaper
+  X Fork ProFontIIx -> ProFontGfx. Add close button, scroll buttons, heart glyph as in maze3d readme, any other widget glyphs which pygame-gui uses. - Attempted - mangled format. Pausing for now.
+
+
+# TODOS
+Individual apps are listed below.
+Each app has 2 todo sections: one for bugs, and one for features.
+
+## AppMenuPanel/Snapper
+### Bugs
+    * They should always be above all other elements. Instead, they sometimes appear beneath other elements. starting_height has inconsistent effect.
+    * AppMenuPanel: App names run offscreen if list is too long. Change to scrolling, full vertical columns.
+### Features
+    * Modify AppMenuPanel to post events on what it is doing (opening panel, closing panel, launching apps) to make it cleaner to interface Snapper with it (hiding/showing Snapper, etc.)
+
+## SnakeWM
+### Bugs
+    * sound: all apps will crash if no audio device
+    * games/zap: crashes at launch if no audio output device
+    * image/ditherbox: connect dither script to GUI
+### Features
+    * sound/piano: redraw to fit beepy screen
+    * bmpfont.py slow performance - ensure it uses convert()
+  * Bluetooth settings automation (see bluetooth-robot.py)
+  * Issues with apps:
+    * games/towerdef: needs port to snakeware
+    * games/zap: crashes at launch if no audio output device
+    * image/ditherbox: connect dither script to GUI
+    * sound: all apps will crash if no audio device
+    * sound/piano: redraw to fit beepy screen
+  * bmpfont.py slow performance - ensure it uses convert()
+
+## tracstar
+### Bugs
+  * Crashes when no track selected and Play button clicked
+
+## voicebox
+### Features
+  * Only speaks English.
+
+## wallpaper
+### Bugs
+  * Button cluster on top (home, etc.) not translating when using FR or JA.

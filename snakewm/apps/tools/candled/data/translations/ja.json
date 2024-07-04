@@ -1,0 +1,19 @@
+{
+    "ja": {
+        "led_brightness":"LEDの明るさ：",
+        "red":"赤",
+        "green":"緑",
+        "blue":"青",
+        "kbd":"キー",
+        "pi":"パイ",
+        "toggle":"切替",
+        "presets":"プリセット:",
+        "candlite":"蝋燭の灯",
+        "frontlite":"夜間灯",
+        "leds_off":"消灯",
+        "tooltip_candle":"心地よいろうそくの灯り。",
+        "tooltip_front":"LCDのフロントライト。夜間にLCDを照らすには、画面の上半分を手で覆ってください。",
+        "tooltip_leds_off":"すべてのLEDを消灯します。",
+        "tooltip_pi_led":"Pi ZeroのLEDを切り替えます。"
+    }
+  }

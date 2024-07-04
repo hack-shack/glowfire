@@ -1,0 +1,10 @@
+{
+    "en": {
+        "size":"Size      : ",
+        "walls":"Walls     : ",
+        "unvisited":"Unvisited : ",
+        "visited":"Visited   : ",
+        "visited2":"2nd Visit : ",
+        "impacts":"Impacts   : "
+    }
+  }

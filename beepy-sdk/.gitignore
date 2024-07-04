@@ -1,0 +1,11 @@
+# macOS folder-view pref files
+.DS_Store
+
+# macOS ACLs in flat-file (tarred) form
+._
+
+# Downloaded sources
+src
+
+# Music
+music/*

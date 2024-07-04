@@ -1,0 +1,19 @@
+{
+    "fr": {
+        "led_brightness":"luminosité:",
+        "red":"rouge",
+        "green":"vert",
+        "blue":"bleu",
+        "kbd":"clav.",
+        "pi":"pi",
+        "toggle":"basculer",
+        "presets":"préconfig:",
+        "candlite":"chandelle",
+        "frontlite":"lumière",
+        "leds_off":"éteindre",
+        "tooltip_candle":"Une lumière de chandelle agréable.",
+        "tooltip_front":"Éclairage avant LCD. Pour voir l'écran la nuit, couvrez la moitié supérieure avec votre main.",
+        "tooltip_leds_off":"Éteint toutes les LEDs.",
+        "tooltip_pi_led":"Allume ou éteint la LED du Pi Zero."
+    }
+  }

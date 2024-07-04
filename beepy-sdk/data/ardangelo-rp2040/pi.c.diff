@@ -1,0 +1,16 @@
+--- original/pi.c	2024-05-10 15:43:36.470743484 -0700
++++ modified/pi.c	2024-05-10 15:44:22.619384585 -0700
+@@ -61,10 +61,10 @@
+ 	// Clear any input queued while Pi was off
+ 	fifo_flush();
+ 
+-	// LED green while booting until driver loaded
++	// LED dim red while booting until driver loaded
+ 	state.setting = LED_SET_ON;
+-	state.r = 0;
+-	state.g = 128;
++	state.r = 1;
++	state.g = 0;
+ 	state.b = 0;
+ 	led_set(&state);
+ 

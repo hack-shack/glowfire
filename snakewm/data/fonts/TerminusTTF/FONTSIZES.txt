@@ -1,0 +1,15 @@
+TerminusTTF contains the original bitmaps in addition to scalable outlines.
+At their designed sizes, the bitmaps are very sharp.
+Only certain sizes are bitmapped.
+
+ These are the font sizes you should use (the point sizes assume that your display has a resolution of 96 dpi):
+
+12 px or 9 pt
+14 px or 10.5 pt
+16 px or 12 pt
+18 px or 13.5 pt
+20 px or 15 pt
+22 px or 16.5 pt
+24 px or 18 pt
+28 px or 21 pt
+32 px or 24 pt

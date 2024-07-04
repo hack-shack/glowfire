@@ -1,0 +1,19 @@
+{
+    "en": {
+        "led_brightness":"led brightness:",
+        "red":"red",
+        "green":"green",
+        "blue":"blue",
+        "kbd":"kbd",
+        "pi":"pi",
+        "toggle":"toggle",
+        "presets":"presets:",
+        "candlite":"candlite",
+        "frontlite":"frontlite",
+        "leds_off":"leds off",
+        "tooltip_candle":"A pleasant candle light.",
+        "tooltip_front":"LCD frontlight. To see LCD at night, reflect light with your hand. Cup your hand over top half of screen.",
+        "tooltip_leds_off":"Turns all LEDs off.",
+        "tooltip_pi_led":"Toggles Pi Zero LED."
+    }
+  }

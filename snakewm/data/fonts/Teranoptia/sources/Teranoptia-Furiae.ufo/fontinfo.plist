@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>800</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>copyright</key>
+	<string>Trademark © Ariel Martín Pérez - SIL Open Font License v1.1</string>
+	<key>descender</key>
+	<integer>-200</integer>
+	<key>familyName</key>
+	<string>Teranoptia</string>
+	<key>openTypeHeadCreated</key>
+	<string>2019/10/16 09:39:07</string>
+	<key>openTypeHheaAscender</key>
+	<integer>800</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-200</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Ariel Martín Pérez</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>https://appliedmetaprojects.com/</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Tunera Type Foundry</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>http://www.tunera.xyz/</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Furiae</string>
+	<key>openTypeOS2StrikeoutPosition</key>
+	<integer>300</integer>
+	<key>openTypeOS2StrikeoutSize</key>
+	<integer>50</integer>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>800</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-200</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>-2</integer>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>800</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>200</integer>
+	<key>postscriptBlueValues</key>
+	<array/>
+	<key>postscriptFontName</key>
+	<string>Teranoptia-Furiae</string>
+	<key>postscriptOtherBlues</key>
+	<array/>
+	<key>styleMapFamilyName</key>
+	<string>Teranoptia Furiae</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Furiae</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>1</integer>
+	<key>xHeight</key>
+	<integer>500</integer>
+</dict>
+</plist>

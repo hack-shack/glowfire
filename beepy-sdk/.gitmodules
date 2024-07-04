@@ -1,0 +1,3 @@
+[submodule "src/firmware-sqfmi-beepy-v1/3rdparty/pico-sdk"]
+	path = src/firmware-sqfmi-beepy-v1/3rdparty/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git

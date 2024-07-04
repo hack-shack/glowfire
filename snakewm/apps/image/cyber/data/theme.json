@@ -1,0 +1,9 @@
+{
+    "#cyber_button_quit":{
+        "images":{
+            "normal_image":{
+                "package":"data",
+                "resource":"orion.png"
+        }
+    }
+}
