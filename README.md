@@ -1,4 +1,4 @@
-![glowfire example video](data/glowfire.mp4)
+![glowfire examples](data/glowfire.gif)
 
 # glowfire
 graphical low-fidelity REPL environment
