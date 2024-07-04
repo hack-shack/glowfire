@@ -1,12 +1,11 @@
 ![glowfire examples](data/glowfire.gif)
+Release video: https://youtu.be/QseUhKPJywU
 
 # glowfire
 graphical low-fidelity REPL environment
 
 Python for pocket computers.
 glowfire is a fork of snakeware for the Raspberry Pi and Memory LCD.
-
-Release video: https://youtu.be/QseUhKPJywU
 
 # Requirements
   * SQFMI beepy (2023)
