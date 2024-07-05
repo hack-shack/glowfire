@@ -140,7 +140,6 @@ This is an experimental system.
   * Any app which uses sound will crash if no audio output device is detected.
   * Connect USB audio dongles with a USB OTG hub or OTG adapter, to the Pi Zero center USB-Data port.
   * Bluetooth headset pairing is possible, but experimental. It must be done manually. See beepy-sdk/scripts/experimental/BT-NOTES.md and bt-robot.py.
-  * There is no shell terminal yet, only a Python REPL. Snakeware needs a good, TUI-oriented shell terminal. The goal is to use the 'bluetuith' TUI app for Bluetooth pairing.
 
 # Take apart example apps
 Examine the snakeware apps in ~/glowfire/snakewm/apps/
