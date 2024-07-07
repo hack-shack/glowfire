@@ -25,15 +25,15 @@ Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-ha
 # Install
 These instructions assume a Raspberry Pi Zero 2 W is installed in the SQFMI beepy.  
 
-## Flash MicroSD card
+## Flash MicroSD card  
 Download latest Raspberry Pi Imager. It does not self update.  
-  * Device > Raspberry Pi Zero 2 W
-  * Operating System > scroll down > Raspberry Pi OS (other) >
-    Raspberry Pi OS Lite (64-bit) - "A port of Debian Bookworm with no desktop environment."
-  * Storage > choose microSD drive
+  * Device > Raspberry Pi Zero 2 W  
+  * Operating System > scroll down > Raspberry Pi OS (other) >  
+    Raspberry Pi OS Lite (64-bit) - "A port of Debian Bookworm with no desktop environment."  
+  * Storage > choose microSD drive  
 Custom OS options appear. Click "Edit Settings."  
-  * Customize: To join wifi network. Assign SSID, username, and hostname.
-  * Save.
+  * Customize: To join wifi network. Assign SSID, username, and hostname.  
+  * Save.  
 Customization window appears. Click Yes.  
 It applies the settings.  
 MicroSD copies data to microSD card.  
