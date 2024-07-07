@@ -149,7 +149,6 @@ This is an experimental system.
   * Any app which uses sound will crash if no audio output device is detected.
   * Connect USB audio dongles with a USB OTG hub or OTG adapter, to the Pi Zero center USB-Data port.
   * Bluetooth headset pairing is possible, but experimental. It must be done manually. See beepy-sdk/scripts/experimental/BT-NOTES.md and bt-robot.py.
-  * snakewm framerate halved from 40-60fps to 20-30fps idle since adding i18n.
 
 # Take apart example apps
 Examine the snakeware apps in ~/glowfire/snakewm/apps/
