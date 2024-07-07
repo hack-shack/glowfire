@@ -9,7 +9,8 @@ glowfire is a fork of [snakeware](https://github.com/joshiemoore/snakeware) for 
 Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-hardware).  
 
 # Features
-  * pygame on the SQFMI beepy. Renders directly to framebuffer: no X, OpenGL, GPU, etc.
+  * pygame on the SQFMI beepy
+  * Builds everything with a single command (once SSH'd in and git-cloned)
   * beepy-sdk: a full beepy developer SDK. Builds SDL2, RP2040 firmware, Bluetooth codecs, etc. on the beepy itself. Self-hosting.
   * snakewm: snakeware window manager, a Python userland
   * sound using USB audio dongle or Bluetooth (experimental)
