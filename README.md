@@ -129,7 +129,6 @@ glowfire is localized for English, French, and Japanese.
 SSH into the beepy.  
 Open ~/glowfire/snakewm/wm.py.  
 Search for "Language" and uncomment the language you wish to use.  
-![language selection](data/langselect.png)
 
 # Use glowfire
 Use the spacebar or right click to show the app menu.  
