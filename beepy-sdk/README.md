@@ -22,7 +22,7 @@ FULL SETUP (headless over SSH)
 ========================================
   * Get a spare microSD card.
   * Download Raspberry Pi Imager from https://www.raspberrypi.com/software
-  * Open the the Raspberry Pi Imager tool.
+  * Open the Raspberry Pi Imager tool.
     * The tool's main window opens to a large Raspberry Pi logo.
     * On the left, click the button: "CHOOSE DEVICE."
     * A list of devices appears. Click the icon for "Raspberry Pi Zero 2 W."
