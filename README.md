@@ -115,7 +115,7 @@ This is the snakeware window manager.
 To show the app menu, press space key or right click mouse.  
 
 The touchpad will not work until you flash RP2040 firmware.  
-You can also use USB keyboard, mouse, etc. as OTG devices using Raspberry Pi Zero center USB-Data connector.
+USB-OTG devices must be connected at boot. (Mouse, keyboard, audio DAC)
 
 # Flash firmware
 To enable touchpad, install firmware.  
