@@ -38,8 +38,10 @@ General tab:
   * Set username and password.
   * Configure wireless LAN: SSID and Password.
   * Set locale settings.
+
 Services tab:
   * Enable SSH > Use password authentication
+
 Click Save.
 
 Customization window appears. Click Yes.  
