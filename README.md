@@ -115,7 +115,7 @@ This is the snakeware window manager.
 To show the app menu, press space key or right click mouse.  
 
 The touchpad will not work until you flash RP2040 firmware.  
-USB-OTG devices must be connected at boot. (Mouse, keyboard, audio DAC)
+USB-OTG devices are supported: mouse, keyboard, audio DAC. Must be attached before boot.
 
 # Flash firmware
 To enable touchpad, install firmware.  
