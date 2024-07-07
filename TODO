@@ -25,6 +25,7 @@ Each app has 2 todo sections: one for bugs, and one for features.
 
 ## SnakeWM
 ### Bugs
+    * snakewm framerate halved from 40-60fps to 20-30fps, idle, since I added localization with i18n.
     * sound: all apps will crash if no audio device
     * games/zap: crashes at launch if no audio output device
     * image/ditherbox: connect dither script to GUI
