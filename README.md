@@ -115,7 +115,7 @@ This is the snakeware window manager.
 To show the app menu, press space key or right click mouse.  
 
 The touchpad will not work until you flash RP2040 firmware.  
-USB-OTG devices are supported: mouse, keyboard, audio DAC. Connect before booting Pi.
+USB-OTG devices are supported: mouse, keyboard, audio DAC. Devices are detected at boot.
 
 # Flash firmware
 To enable touchpad, install firmware.  
