@@ -14,6 +14,7 @@ Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-ha
   * Includes Snakeware Window Manager, a Python userland
   * Sound using USB audio dongle or Bluetooth (experimental)
   * Localized for English, French, and Japanese
+  * No X, OpenGL, Mesa, or Wayland. Renders directly to framebuffer.
 
 # Requirements
   * SQFMI beepy (2023)
