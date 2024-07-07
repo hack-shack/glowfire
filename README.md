@@ -2,9 +2,17 @@
 
 Release video: https://youtu.be/QseUhKPJywU
 
-# glowfire
-graphical low-fidelity REPL environment  
-Python for pocket computers. glowfire is a fork of snakeware for the Raspberry Pi and Memory LCD.  
+# Description
+glowfire: graphical low-fidelity REPL environment  
+Python for pocket computers. Designed for creative programming.  
+Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-hardware).  
+glowfire is a fork of [snakeware](https://github.com/joshiemoore/snakeware) for the Raspberry Pi and Memory LCD.  
+
+# Features
+  * pygame on the SQFMI beepy. Renders directly to framebuffer: no X, OpenGL, GPU, etc.
+  * beepy-sdk: a full beepy developer SDK. Builds SDL2, RP2040 firmware, Bluetooth codecs, etc. on the beepy itself. Self-hosting.
+  * snakewm: snakeware window manager, a Python userland
+  * sound using USB audio dongle or Bluetooth (experimental)
 
 # Requirements
   * SQFMI beepy (2023)
