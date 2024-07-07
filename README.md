@@ -173,8 +173,8 @@ Compare its code to a more complex app.
 pygame-gui has useful documentation within its source code.  
 pygame-gui source code is in beepy-sdk/src/pygame_gui/pygame_gui/
 
-candLED and tracstar have GUI controls with attached events.  
-Examine these if you are interested in working with controls.  
+Examine candLED if you are interested in working with controls.  
+tracstar also has GUI controls with attached events.  
 tracstar and audio apps will crash if no USB sound card is attached. 
 
 # Run snakewm on your desktop computer
