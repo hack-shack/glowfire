@@ -129,8 +129,10 @@ This file contains detailed instructions on flashing the firmware:
 Remove all cables from the beepy.  
 Turn the beepy off. Slide beepy power switch to left.  
 Connect your host computer to bottom USB-C port on beepy.  
-Turn on in DFU mode. While holding End Call button, slide beepy power switch to right.  
-Continue to hold End Call for 1 second, then release.  
+Power on beepy in DFU mode:  
+  * While holding End Call button, slide beepy power switch to right.  
+  * Continue to hold End Call for 1 second, then release.
+
 On host computer, drag rp2040-firmware.uf2 file onto mounted RPI_RP2 disk. It should copy the file.  
 On host computer, eject RPI-RP2 disk.  
 Power cycle beepy. On beepy, slide power switch to left OFF, then right ON. It should boot.  
