@@ -30,10 +30,17 @@ Download latest Raspberry Pi Imager. It does not self update.
   * Device > Raspberry Pi Zero 2 W  
   * Operating System > scroll down > Raspberry Pi OS (other) >  
     Raspberry Pi OS Lite (64-bit) - "A port of Debian Bookworm with no desktop environment."  
-  * Storage > choose microSD drive  
+  * Storage > choose microSD drive
+
 Custom OS options appear. Click "Edit Settings."  
-  * Customize: To join wifi network. Assign SSID, username, and hostname.  
-  * Save.
+General tab:
+  * Set hostname. It broadcasts automatically using mDNS. 
+  * Set username and password.
+  * Configure wireless LAN: SSID and Password.
+  * Set locale settings.
+Services tab:
+  * Enable SSH > Use password authentication
+Click Save.
 
 Customization window appears. Click Yes.  
 It applies the settings.  
