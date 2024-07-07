@@ -11,7 +11,7 @@ Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-ha
 # Features
   * pygame on the SQFMI beepy
   * Self-hosted: builds its own software development kit on the beepy itself
-  * Includes a Python userland, Snakeware Window Manager
+  * Includes Snakeware Window Manager, a Python userland
   * Sound using USB audio dongle or Bluetooth (experimental)
   * Localized for English, French, and Japanese
 
