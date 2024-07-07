@@ -33,10 +33,11 @@ Download latest Raspberry Pi Imager. It does not self update.
   * Storage > choose microSD drive  
 Custom OS options appear. Click "Edit Settings."  
   * Customize: To join wifi network. Assign SSID, username, and hostname.  
-  * Save.  
+  * Save.
+
 Customization window appears. Click Yes.  
 It applies the settings.  
-MicroSD copies data to microSD card.  
+Raspberry Pi Imager copies data to microSD card.  
 Do not eject microSD card.  
 After copy is complete:
 ```
