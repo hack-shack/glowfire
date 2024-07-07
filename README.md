@@ -12,9 +12,9 @@ Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-ha
   * pygame on the SQFMI beepy
   * Self-hosted: builds its own software development kit on the beepy itself
   * Includes Snakeware Window Manager, a Python userland
+  * Renders directly to framebuffer: no X, OpenGL, Mesa, or Wayland
   * Sound using USB audio dongle or Bluetooth (experimental)
   * Localized for English, French, and Japanese
-  * No X, OpenGL, Mesa, or Wayland. Renders directly to framebuffer.
 
 # Requirements
   * SQFMI beepy (2023)
