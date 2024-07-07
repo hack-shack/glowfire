@@ -10,7 +10,7 @@ Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-ha
 
 # Features
   * Graphical Python userland for the SQFMI beepy
-  * Renders directly to framebuffer: no GPU, OpenGL, Mesa, X, or Wayland
+  * Renders directly to the framebuffer: no GPU, OpenGL, Mesa, X, or Wayland
   * Self-hosted: builds its own software development kit on the beepy itself
   * Sound using USB audio dongle or Bluetooth (experimental)
   * Localized for English, French, and Japanese
