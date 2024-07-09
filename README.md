@@ -110,8 +110,8 @@ It takes about 2 hours to build on a Class 10 U1 microSD.
 There will be no LCD image during this time.  
 It configures systemd to automatically start snakewm at boot.  
 
-After make-glowfire.py finishes, the Pi will reboot into snakewm.
-This is the snakeware window manager.  
+After make-glowfire.py finishes, the Pi will reboot into snakewm.  
+This is the graphical snakeware window manager.  
 To show the app menu, press space key or right click mouse.  
 
 The touchpad will not work until you flash RP2040 firmware.  
@@ -127,14 +127,15 @@ This file contains detailed instructions on flashing the firmware:
 ~/glowfire/beepy-sdk/src/rp2040-instructions.txt
 
 Remove all cables from the beepy.  
-Turn the beepy off. Slide beepy power switch to left.  
+Slide beepy power switch to left OFF.  
 Connect your host computer to bottom USB-C port on beepy.  
 Power on beepy in DFU mode:  
-  * While holding End Call button, slide beepy power switch to right.  
+  * While holding End Call button (rightmost of 5), slide beepy power switch to right ON.  
   * Continue to hold End Call for 1 second, then release.
+  * RP2040 boots into DFU mode. It appears on host computer as a mounted drive.
 
-On host computer, drag rp2040-firmware.uf2 file onto mounted RPI_RP2 disk. It should copy the file.  
-On host computer, eject RPI-RP2 disk.  
+On host computer, drag rp2040-firmware.uf2 file onto mounted RPI_RP2 drive. It should copy the firmware file.  
+On host computer, eject RPI-RP2 drive.  
 Power cycle beepy. On beepy, slide power switch to left OFF, then right ON. It should boot.  
 When beepy turns on, its LED is red. When glowfire starts, its LED turns off.  
 
