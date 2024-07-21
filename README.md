@@ -6,7 +6,8 @@ Release video: https://youtu.be/QseUhKPJywU
 glowfire: graphical low-fidelity REPL environment  
 Python for pocket computers.  
 glowfire is a fork of [snakeware](https://github.com/joshiemoore/snakeware) for the Raspberry Pi and Sharp Memory LCD.  
-Reference hardware is the [SQFMI beepy (2023)](https://github.com/sqfmi/beepy-hardware/blob/main/KiCad/beepy-schematic-v1.pdf).  
+Reference hardware is the SQFMI beepy, released in 2023.  
+The [beepy schematic](https://github.com/sqfmi/beepy-hardware/blob/5e35c7be4ca82a4c1ce222380d37c6be8302f0db/KiCad/beepy-schematic-v1.pdf) and [KiCad PCB design](https://github.com/sqfmi/beepy-hardware/tree/5e35c7be4ca82a4c1ce222380d37c6be8302f0db/KiCad) are on GitHub.  
 
 # Features
   * Python GUI for the SQFMI beepy
