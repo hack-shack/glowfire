@@ -479,7 +479,7 @@ def download_sources():
     # ardangelo sharp driver : temporarily using Kiboneu's repo; contains patch for pull request #15 on ardangelo repo
     download_source("https://github.com/Kiboneu/sharp-drm-driver","sharp-drm-driver","Sharp Memory LCD DRM framebuffer driver")
     os.chdir(os.path.join(SRC_DIR,"sharp-drm-driver"))
-    git("checkout","e65472734decd59450e2448d1218c4f69babcea8")  # 2025-04-31
+    git("checkout","ea98230f3b1ff9da993c85c8aa958d338bdd1847")  # 2025-04-31
     
     download_source("https://github.com/deniskropp/flux","flux","Flux library for DirectFB2")
     os.chdir(os.path.join(SRC_DIR,"flux"))
