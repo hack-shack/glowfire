@@ -381,7 +381,7 @@ def build_ardangelo_rp2040_firmware(build_clean=True):
 # ------------------------
 def install_sharp_drm_driver():
     print("INFO : Checking to see if sharp-drm-driver is patched for overclocked SPI...")
-    p = re.compile("spi-max-frequency = <7000000>;")  # 4MHz default. 8MHz produces vertical tearing.
+    p = re.compile("spi-max-frequency = <2000000>;")  # Factory maximum 2MHz. Tested maximum 7MHz. 8MHz produces vertical tearing.
     with open(os.path.join(SRC_DIR,"sharp-drm-driver/sharp-drm.dts"),mode='r') as source_file:
         source = source_file.read()
         matches = re.findall(p,source)
@@ -476,10 +476,10 @@ def download_sources():
     os.chdir(os.path.join(SRC_DIR,"beepberry-keyboard-driver"))
     git("checkout","e65472734decd59450e2448d1218c4f69babcea8")  # 2024-04-30
 
-    # ardangelo sharp driver
-    download_source("https://github.com/ardangelo/sharp-drm-driver","sharp-drm-driver","Sharp Memory LCD DRM framebuffer driver")
+    # ardangelo sharp driver : temporarily using Kiboneu's repo; contains patch for pull request #15 on ardangelo repo
+    download_source("https://github.com/Kiboneu/sharp-drm-driver","sharp-drm-driver","Sharp Memory LCD DRM framebuffer driver")
     os.chdir(os.path.join(SRC_DIR,"sharp-drm-driver"))
-    git("checkout","7ddeaa0fb2e5c1f8766aef43bfd3052efbc08c3b")  # 2024-04-11
+    git("checkout","e65472734decd59450e2448d1218c4f69babcea8")  # 2025-04-31
     
     download_source("https://github.com/deniskropp/flux","flux","Flux library for DirectFB2")
     os.chdir(os.path.join(SRC_DIR,"flux"))
