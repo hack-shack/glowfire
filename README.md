@@ -97,7 +97,12 @@ Open /etc/fstab and insert this line, changing IP and zpool name as needed:
 Reboot.
 
 ## Install glowfire
-SSH to Pi. Install glowfire.
+SSH to the Pi.  
+```
+desktop:$ ssh pi@beepy.local
+```
+
+Download and install glowfire.
 ```
 beepy:$ sudo apt install -y git
 beepy:$ cd ~
