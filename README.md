@@ -28,7 +28,7 @@ The [glowfire manual](https://github.com/hack-shack/glowfire/blob/main/glowfire-
 These instructions assume a Raspberry Pi Zero 2 W is installed in the SQFMI beepy.
 
 ## Flash MicroSD card  
-Download latest Raspberry Pi Imager. It does not self update.  
+Download latest [Raspberry Pi Imager](https://www.raspberrypi.com/software/). It does not self update.  
   * Device > Raspberry Pi Zero 2 W  
   * Operating System > scroll down > Raspberry Pi OS (other) >  
     Raspberry Pi OS Lite (64-bit) - "A port of Debian Bookworm with no desktop environment."  
