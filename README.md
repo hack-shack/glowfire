@@ -59,10 +59,9 @@ desktop:$ vi /Volumes/bootfs/cmdline.txt  <- insert after text "rootwait": modul
 
 ## Connect to Raspberry Pi
 Eject microSD. Install microSD card into Raspberry Pi Zero 2.  
-Disconnect all cables from the beepy. Disconnect the USB-C connector from the beepy.  
+Disconnect all cables from the beepy.
 Power off the beepy. Slide power switch to the left.  
-Disconnect all cables from the beepy.  
-Connect host computer to Raspberry Pi center connector. Only connect 1 MicroUSB data cable.  
+Connect host computer to Raspberry Pi center connector. Only connect 1 MicroUSB data cable to the beepy.  
 The beepy powers on.  
 Wait 5 minutes for automatic configuration of Raspberry Pi OS.  
 It resizes the main partition, enables SSH, etc.  
